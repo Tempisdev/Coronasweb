@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <title>CrownStore - All products</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/logocoronasblack.png" alt="logotipo" width="125px">
+                </a>
+            </div>
+            <nav>
+                <ul id="Menuitems">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="products.html">Productos</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contacto</a></li>
+                    <li><a href="#">Cuenta</a></li>
+                </ul>
+            </nav>
+            <img src="img/cart.png" alt="" width="30px" height="30px">
+            <img src="img/menu.png" alt="" class="menu-icon" onclick="menutoggle()">
+        </div>
+    </div>
+
+
+    <!-- PRODUCTOS DESTACADOS-->
+    <div class="small-container">
+        <div class="row row-2">
+            <h2>Todos los productos</h2>
+            <select name="ok" id="">
+                <option >Por defecto</option>
+                <option >Por menor costo</option>
+                <option >Por mayor raiting</option>
+                <option >Por mayor venta</option>
+            </select>
+        </div>
+        <div class="row">
+
+
+            <div class="col-4">
+                <img src="img/corona1.png" alt="c1">
+                <h4>Corona llamativa</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <a href="detallesdeproducto.html">
+                    <p>$150.00</p>
+                </a>
+
+            </div>
+
+
+            <div class="col-4">
+                <img src="img/corona2.png" alt="c1">
+                <h4>Corona distintos colores</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <a href="detallesdeproducto.html">
+                    <p>$250.00</p>
+                </a>
+            </div>
+
+
+            <div class="col-4">
+                <img src="img/corona4.png" alt="c1">
+                <h4>Corona natural con moño</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>$150.00</p>
+            </div>
+
+
+
+            <div class="col-4">
+                <img src="img/coronanatural.png" alt="c1">
+                <h4>Corona con campanas</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>$220.00</p>
+            </div>
+
+
+            <div class="col-4">
+                <img src="img/pino.png" alt="c1">
+                <h4>Corona llamativa</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <a href="detallesdeproducto.html">
+                    <p>$150.00</p>
+                </a>
+            </div>
+
+
+            <div class="col-4">
+                <img src="img/regalos.png" alt="c1">
+                <h4>Corona distintos colores</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$250.00</p>
+            </div>
+
+
+            <div class="col-4">
+                <img src="img/esferas.png" alt="c1">
+                <h4>Corona natural con moño</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>$150.00</p>
+            </div>
+
+
+
+            <div class="col-4">
+                <img src="img/bonito4.png" alt="c1">
+                <h4>Corona con campanas</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>$220.00</p>
+            </div>
+
+
+            <div class="col-4">
+                <img src="img/bonito3.png" alt="c1">
+                <h4>Corona llamativa</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>$150.00</p>
+            </div>
+
+
+            <div class="col-4">
+                <img src="img/bonito2.png" alt="c1">
+                <h4>Corona distintos colores</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$250.00</p>
+            </div>
+
+
+            <div class="col-4">
+                <img src="img/bonito.png" alt="c1">
+                <h4>Corona natural con moño</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>$150.00</p>
+            </div>
+
+
+
+            <div class="col-4">
+                <img src="img/coronanatural.png" alt="c1">
+                <h4>Corona con campanas</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>$220.00</p>
+            </div>
+
+
+        </div>
+        <div class="page-btn">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>&#10140;</span>
+
+
+        </div>
+
+    </div>
+
+
+
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Proximamnete nuestra aplicación</h3>
+                    <p>Disponible para Android y IOS</p>
+                    <div class="app-logo">
+                        <img src="img/play-store.png" alt="">
+                        <img src="img/app-store.png" alt="">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="img/logocoronaswhite.png">
+                    <p>Nuestros beneficios son muchos, registrate.</p>
+                </div>
+
+                <div class="footer-col-3">
+                    <h3>Links importantes</h3>
+                    <ul>
+                        <li>Cupones</li>
+                        <li>Blog</li>
+                        <li>Politica de privacidad</li>
+                        <li>Afiliate</li>
+                    </ul>
+                </div>
+
+                <div class="footer-col-4">
+                    <h3>Siguenos</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Instagram</li>
+                        <li>Twitter</li>
+                        <li>Pinterest</li>
+                    </ul>
+                </div>
+
+
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2020 TecDevs</p>
+        </div>
+
+    </div>
+
+    <script>
+        var Menuitems = document.getElementById("Menuitems");
+        Menuitems.style.maxHeight = "0px";
+
+        function menutoggle() {
+            if (Menuitems.style.maxHeight == "0px") {
+                Menuitems.style.maxHeight = "200px"
+            } else {
+                Menuitems.style.maxHeight = "0px"
+            }
+        }
+    </script>
+
+</body>
+
+</html>
